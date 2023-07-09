@@ -30,7 +30,7 @@ function calculateMul(counter) {
 //function sum & mul end.
 
 function showSum(req, res) {
-  let counter = req.body.counter;
+  let counter = req.query.counter;
 
   let calculatedSum = calculateSum(counter);
   let calculatedMul = calculateMul(counter);
